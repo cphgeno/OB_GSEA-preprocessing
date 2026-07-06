@@ -21,7 +21,7 @@ source(file.path(get_script_dir(), "preprocessing_helper_functions.R"))
 
 # define option list 
 option_list <- list(
-  make_option("--output_dir", "-o",
+  make_option("--output_dir",
     dest="output_dir", type="character",
     help="output directory where files will be saved"),
   make_option("--name",
